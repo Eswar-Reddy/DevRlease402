@@ -4,6 +4,8 @@
     <types>
         <members>AClss1</members>
         <members>ARApexCls1</members>
+        <members>ARApexclass2</members>
+        <members>ARPTCls1</members>
         <name>ApexClass</name>
     </types>
 </Package>
