@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Testing purpose flow is created.</description>
+    <interviewLabel>{!$GlobalConstant.EmptyString}</interviewLabel>
+    <label>BasicFlow1</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Object_Desc_Updater</name>
+        <label>Object Desc Updater</label>
+        <locationX>325</locationX>
+        <locationY>268</locationY>
+        <assignRecordIdToReference>FlowVariable1</assignRecordIdToReference>
+        <connector>
+            <targetReference>RecordupdateStatus</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>SlectedVariable1</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Book__c</object>
+    </recordCreates>
+    <screens>
+        <name>FlowTest1</name>
+        <label>FlowTest1</label>
+        <locationX>348</locationX>
+        <locationY>120</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Object_Desc_Updater</targetReference>
+        </connector>
+        <fields>
+            <name>SlectedVariable1</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue></stringValue>
+            </defaultValue>
+            <fieldText>SlectedVariable1</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>selected lead record id = {!FlowVariable1}</pausedText>
+    </screens>
+    <screens>
+        <name>RecordupdateStatus</name>
+        <label>RecordupdateStatus</label>
+        <locationX>327</locationX>
+        <locationY>395</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>RecordUpdateAlert</name>
+            <fieldText>Record is updated  successfully{!AlertStatus}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <pausedText>Testing</pausedText>
+    </screens>
+    <startElementReference>FlowTest1</startElementReference>
+    <variables>
+        <name>AlertStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <description>Testing Purpose</description>
+        <name>FlowVariable1</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+</Flow>

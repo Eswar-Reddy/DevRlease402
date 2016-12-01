@@ -22,4 +22,17 @@
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
+    <assignmentRule>
+        <fullName>TestAssignmentRule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>eswar.reddy1@ar.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.City</field>
+                <operation>equals</operation>
+                <value>Hyderabad</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
 </AssignmentRules>
