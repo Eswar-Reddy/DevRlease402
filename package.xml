@@ -6,6 +6,8 @@
         <members>ARApexCls1</members>
         <members>ARApexclass2</members>
         <members>ARPTCls1</members>
+        <members>AppCls01</members>
+        <members>AppCls02</members>
         <name>ApexClass</name>
     </types>
 </Package>
