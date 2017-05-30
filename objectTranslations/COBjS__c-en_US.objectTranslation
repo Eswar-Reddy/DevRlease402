@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>COBjS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>COBjSs</value>
+    </caseValues>
+    <fields>
+        <label><!-- COBjSEmail2 --></label>
+        <name>COBjSEmail2__c</name>
+    </fields>
+    <layouts>
+        <layout>COBjSLayout2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- COBjS RecordType1 --></label>
+        <name>COBjS_RecordType1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- COBjS RecordType2 --></label>
+        <name>COBjS_RecordType2</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Name can&apos;t be as a &apos;aaaa&apos; --></errorMessage>
+        <name>COBjSValidationRule1</name>
+    </validationRules>
+</CustomObjectTranslation>

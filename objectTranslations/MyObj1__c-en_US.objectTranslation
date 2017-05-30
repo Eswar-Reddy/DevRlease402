@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MyObj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MyObj1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- MyObj1Id --></label>
+        <name>MyObj1Id__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- MyObj1RecordTypeLabel1 --></label>
+        <name>MyObj1RecordTypeLabel1</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- ApexResonLabel1 --></label>
+        <name>ApexResonLabel1</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

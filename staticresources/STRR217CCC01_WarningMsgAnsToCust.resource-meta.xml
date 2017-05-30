@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>image/png</contentType>
+    <description>BR-10697 (R2 17 Release) In Case Portal and myFS web portal, fields Customer Request and Answer to Customer are exposed to customer. Hence, A warning message should be displayed to warn the CCC Agent that fields are exposed to customer</description>
+</StaticResource>

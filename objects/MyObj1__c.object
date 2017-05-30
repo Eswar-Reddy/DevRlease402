@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -79,4 +75,5 @@
         <fullName>ApexResonLabel1__c</fullName>
         <label>ApexResonLabel1</label>
     </sharingReasons>
+    <visibility>Public</visibility>
 </CustomObject>

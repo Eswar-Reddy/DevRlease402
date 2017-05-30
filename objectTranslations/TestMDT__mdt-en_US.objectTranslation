@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestMDT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TestMDTs</value>
+    </caseValues>
+    <fields>
+        <label><!-- CustomMetadataTypeField1 --></label>
+        <name>CustomMetadataTypeField1__c</name>
+        <picklistValues>
+            <masterLabel>aa</masterLabel>
+            <translation><!-- aa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bb</masterLabel>
+            <translation><!-- bb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cc</masterLabel>
+            <translation><!-- cc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dd</masterLabel>
+            <translation><!-- dd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ee</masterLabel>
+            <translation><!-- ee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ff</masterLabel>
+            <translation><!-- ff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>gg</masterLabel>
+            <translation><!-- gg --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

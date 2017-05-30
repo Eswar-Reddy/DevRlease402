@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Book</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Books</value>
+    </caseValues>
+    <fields>
+        <label><!-- BookAuthor --></label>
+        <name>BookAuthor__c</name>
+    </fields>
+    <fields>
+        <label><!-- BookDesc --></label>
+        <name>BookDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- BookPages --></label>
+        <name>BookPages__c</name>
+    </fields>
+    <fields>
+        <label><!-- BookPrintedBy --></label>
+        <name>BookPrintedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- BookReviews --></label>
+        <name>BookReviews__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingPurchaseBooks --></label>
+        <name>PendingPurchaseBooks__c</name>
+        <picklistValues>
+            <masterLabel>.net</masterLabel>
+            <translation><!-- .net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webservice</masterLabel>
+            <translation><!-- Webservice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>java</masterLabel>
+            <translation><!-- java --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PruchaseBooksList --></label>
+        <name>PruchaseBooksList__c</name>
+        <picklistValues>
+            <masterLabel>.Net</masterLabel>
+            <translation><!-- .Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C++</masterLabel>
+            <translation><!-- C++ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud Computing</masterLabel>
+            <translation><!-- Cloud Computing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hibernate</masterLabel>
+            <translation><!-- Hibernate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAVA</masterLabel>
+            <translation><!-- JAVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHP</masterLabel>
+            <translation><!-- PHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webservices</masterLabel>
+            <translation><!-- Webservices --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SamplePiclist1 --></label>
+        <name>SamplePiclist1__c</name>
+        <picklistValues>
+            <masterLabel>aa</masterLabel>
+            <translation><!-- aa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bb</masterLabel>
+            <translation><!-- bb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cc</masterLabel>
+            <translation><!-- cc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dd</masterLabel>
+            <translation><!-- dd --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Author Name should not be empty --></errorMessage>
+        <name>BookAuthorValidationRule</name>
+    </validationRules>
+</CustomObjectTranslation>

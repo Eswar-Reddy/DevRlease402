@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -44,31 +40,278 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>ListOfBooks</fullName>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>JAVA
+Oracle
+Salesforce
+Cloud Computing
+Webservices
+C
+C++
+C#</description>
+        <displayedFields>
+            <field>BookPages__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BookReviews__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BookPrintedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BookAuthor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>ListOfBooks</label>
+    </fieldSets>
+    <fields>
+        <fullName>BookAuthor__c</fullName>
+        <externalId>false</externalId>
+        <label>BookAuthor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>BookDesc__c</fullName>
         <externalId>false</externalId>
         <label>BookDesc</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>BookPages__c</fullName>
+        <externalId>false</externalId>
+        <label>BookPages</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BookPrintedBy__c</fullName>
+        <externalId>false</externalId>
+        <label>BookPrintedBy</label>
+        <length>224</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BookReviews__c</fullName>
+        <externalId>false</externalId>
+        <label>BookReviews</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PendingPurchaseBooks__c</fullName>
+        <externalId>false</externalId>
+        <label>PendingPurchaseBooks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>c</fullName>
+                    <default>false</default>
+                    <label>c</label>
+                </value>
+                <value>
+                    <fullName>java</fullName>
+                    <default>false</default>
+                    <label>java</label>
+                </value>
+                <value>
+                    <fullName>.net</fullName>
+                    <default>false</default>
+                    <label>.net</label>
+                </value>
+                <value>
+                    <fullName>Webservice</fullName>
+                    <default>false</default>
+                    <label>Webservice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PruchaseBooksList__c</fullName>
+        <description>Purchasing books list</description>
+        <externalId>false</externalId>
+        <label>PruchaseBooksList</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>C++</fullName>
+                    <default>false</default>
+                    <label>C++</label>
+                </value>
+                <value>
+                    <fullName>JAVA</fullName>
+                    <default>false</default>
+                    <label>JAVA</label>
+                </value>
+                <value>
+                    <fullName>Hibernate</fullName>
+                    <default>false</default>
+                    <label>Hibernate</label>
+                </value>
+                <value>
+                    <fullName>Webservices</fullName>
+                    <default>false</default>
+                    <label>Webservices</label>
+                </value>
+                <value>
+                    <fullName>PHP</fullName>
+                    <default>false</default>
+                    <label>PHP</label>
+                </value>
+                <value>
+                    <fullName>.Net</fullName>
+                    <default>false</default>
+                    <label>.Net</label>
+                </value>
+                <value>
+                    <fullName>Cloud Computing</fullName>
+                    <default>false</default>
+                    <label>Cloud Computing</label>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SamplePiclist1__c</fullName>
+        <externalId>false</externalId>
+        <label>SamplePiclist1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>aa</fullName>
+                    <default>false</default>
+                    <label>aa</label>
+                </value>
+                <value>
+                    <fullName>bb</fullName>
+                    <default>false</default>
+                    <label>bb</label>
+                </value>
+                <value>
+                    <fullName>cc</fullName>
+                    <default>false</default>
+                    <label>cc</label>
+                </value>
+                <value>
+                    <fullName>dd</fullName>
+                    <default>false</default>
+                    <label>dd</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>Book</label>
     <nameField>
         <label>Book Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Books</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>BookAuthorValidationRule</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(BookAuthor__c) &gt; 0</errorConditionFormula>
+        <errorDisplayField>BookAuthor__c</errorDisplayField>
+        <errorMessage>Author Name should not be empty</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
 </CustomObject>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bus</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Buses</value>
+    </caseValues>
+    <fields>
+        <label><!-- BusDestination --></label>
+        <name>BusDestination__c</name>
+        <picklistValues>
+            <masterLabel>BNG</masterLabel>
+            <translation><!-- BNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chennai</masterLabel>
+            <translation><!-- Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMM</masterLabel>
+            <translation><!-- DMM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HNDP</masterLabel>
+            <translation><!-- HNDP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HYD</masterLabel>
+            <translation><!-- HYD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tirupathi</masterLabel>
+            <translation><!-- Tirupathi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bus --></label>
+        <name>BusLookUpField1__c</name>
+        <relationshipLabel><!-- Buses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BusSource --></label>
+        <name>BusSource__c</name>
+        <picklistValues>
+            <masterLabel>Amaravathi</masterLabel>
+            <translation><!-- Amaravathi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BNG</masterLabel>
+            <translation><!-- BNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chennai</masterLabel>
+            <translation><!-- Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HYD</masterLabel>
+            <translation><!-- HYD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kurnool</masterLabel>
+            <translation><!-- Kurnool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tirupathi</masterLabel>
+            <translation><!-- Tirupathi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BusTextField1 --></label>
+        <name>BusTextField1__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- New Note --></label>
+        <name>BusNewRecordAction1</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

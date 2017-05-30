@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>ACLS1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACLS1</shortDescription>
+        <value>s1
+s2
+s4
+s3
+s5
+s6</value>
+    </labels>
+    <labels>
+        <fullName>ACLS2</fullName>
+        <categories>Testing purpose</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACLS2</shortDescription>
+        <value>s21
+a22
+a23
+a24
+a25
+a26</value>
+    </labels>
+    <labels>
         <fullName>CLDescription</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -10,5 +35,19 @@ Testing
 QA
 Pre-Production
 Production</value>
+    </labels>
+    <labels>
+        <fullName>CLSMar10</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CLSMar10</shortDescription>
+        <value>m10</value>
+    </labels>
+    <labels>
+        <fullName>CLS_test2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CLS test2</shortDescription>
+        <value>22</value>
     </labels>
 </CustomLabels>
