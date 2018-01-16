@@ -499,6 +499,10 @@
         <name>MatchingRules</name>
     </types>
     <types>
+        <members>Freestyle_Support_Access_SE</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>AdminProfile1</members>
         <name>Profile</name>
