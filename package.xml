@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>39.0</version>
     <types>
         <members>A12</members>
         <members>A13</members>
@@ -498,6 +499,11 @@
         <name>MatchingRules</name>
     </types>
     <types>
+        <members>Admin</members>
+        <members>AdminProfile1</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
@@ -692,5 +698,4 @@
         <members>EmailMessage.TestSendAction</members>
         <name>WorkflowSend</name>
     </types>
-    <version>39.0</version>
 </Package>
