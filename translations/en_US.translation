@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- AutoRABITAPP --></label>
+        <name>AutoRABITAPP</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Test App --></label>
+        <name>Test_App</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- CL! --></label>
+        <name>CL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cls1 --></label>
+        <name>Cls1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cls2 --></label>
+        <name>Cls2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cls3 --></label>
+        <name>Cls3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomLabel1 --></label>
+        <name>CustomLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test label mar 27 --></label>
+        <name>Test_label_mar_27</name>
+    </customLabels>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Test Report Type --></description>
+        <label><!-- Test Report Type --></label>
+        <name>Test_Report_Type</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Products --></label>
+            <name>Products</name>
+        </sections>
+    </reportTypes>
+</Translations>
