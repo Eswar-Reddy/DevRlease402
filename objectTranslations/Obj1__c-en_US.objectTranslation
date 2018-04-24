@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Obj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Obj1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- f2 --></label>
+        <name>f2__c</name>
+    </fields>
+    <fields>
+        <label><!-- f3 --></label>
+        <name>f3__c</name>
+    </fields>
+    <fields>
+        <label><!-- f4 --></label>
+        <name>f4__c</name>
+    </fields>
+    <fields>
+        <label><!-- f5 --></label>
+        <name>f5__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
