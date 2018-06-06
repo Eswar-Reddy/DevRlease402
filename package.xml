@@ -13,4 +13,8 @@
         <members>ApxCls1</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>EnhancedObj__c</members>
+        <name>CustomObject</name>
+    </types>
 </Package>
