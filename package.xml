@@ -2,7 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>43.0</version>
     <types>
-        <members>ARPTCls1</members>
         <members>AccCls1</members>
         <members>AccCls2</members>
         <members>AccCls3</members>
@@ -19,6 +18,10 @@
         <members>Eswar_Bot</members>
         <members>testbot1</members>
         <name>Bot</name>
+    </types>
+    <types>
+        <members>EnhancedObj__c.desc__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>EnhancedObj__c</members>
