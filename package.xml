@@ -41,7 +41,12 @@
     <types>
         <members>EnhancedObj__c</members>
         <members>icmrcobj1__c</members>
+        <members>icobj1__x</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>EswarDataSourceTest1</members>
+        <name>ExternalDataSource</name>
     </types>
     <types>
         <members>AdminProfile1</members>
