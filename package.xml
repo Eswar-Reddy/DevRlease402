@@ -43,4 +43,11 @@
         <members>icmrcobj1__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>AdminProfile1</members>
+        <members>AdminProfile11</members>
+        <members>AdminProfile11 duplicate</members>
+        <members>AdminProfilesSe1</members>
+        <name>Profile</name>
+    </types>
 </Package>
