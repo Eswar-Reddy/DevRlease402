@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>43.0</version>
+    <version>41.0</version>
     <types>
         <members>ARPTCls1</members>
         <members>AccCls1</members>
@@ -21,6 +21,7 @@
         <name>Bot</name>
     </types>
     <types>
+        <members>EnhancedObj__c.desc__c</members>
         <members>icmrcobj1__c.field10__c</members>
         <members>icmrcobj1__c.filed10__c</members>
         <members>icmrcobj1__c.filed11__c</members>
@@ -36,6 +37,12 @@
         <members>icmrcobj1__c.filed7__c</members>
         <members>icmrcobj1__c.filed8__c</members>
         <members>icmrcobj1__c.filed9__c</members>
+        <members>icobj1__x.field1__c</members>
+        <members>icobj1__x.field2__c</members>
+        <members>icobj1__x.field3__c</members>
+        <members>icobj1__x.field4__c</members>
+        <members>icobj1__x.field5__c</members>
+        <members>icobj1__x.field6__c</members>
         <name>CustomField</name>
     </types>
     <types>
