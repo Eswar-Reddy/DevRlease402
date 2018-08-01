@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>41.0</version>
+    <types>
+        <members>PicklistTest1__c.StatesInfo__c</members>
+        <members>PicklistTest1__c.country__c</members>
+        <members>Wellsfargo__c.Field_for_Testing__c</members>
+        <members>Wellsfargo__c.Field_for_testing2345__c</members>
+        <members>prd__c.field1__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>PicklistTest1__c</members>
+        <members>Wellsfargo__c</members>
+        <members>prd__c</members>
+        <name>CustomObject</name>
+    </types>
+</Package>
