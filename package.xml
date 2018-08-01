@@ -2,6 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>41.0</version>
     <types>
+        <members>Account.Active__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>CSlistType1__c.desc__c</members>
         <members>PicklistTest1__c.StatesInfo__c</members>
         <members>PicklistTest1__c.country__c</members>
         <members>Wellsfargo__c.Field_for_Testing__c</members>
@@ -10,6 +18,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>CSlistType1__c</members>
+        <members>Campaign</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
         <members>PicklistTest1__c</members>
         <members>Wellsfargo__c</members>
         <members>prd__c</members>
